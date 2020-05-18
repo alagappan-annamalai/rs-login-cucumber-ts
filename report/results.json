@@ -1,0 +1,98 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Login to RS Application",
+    "line": 1,
+    "id": "verify-login-to-rs-application",
+    "tags": [],
+    "uri": "src\\features\\login.feature",
+    "elements": [
+      {
+        "id": "verify-login-to-rs-application;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with valid Credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the RS URL \"https://rdwengg-az-qa8.riversand.com/\"",
+            "match": {
+              "location": "src\\steps\\step1.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter email as \"rdwadmin@riversand.com\"",
+            "match": {
+              "location": "src\\steps\\step1.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "valid password as \"rdwadmin\"",
+            "match": {
+              "location": "src\\steps\\step1.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicking submit button",
+            "match": {
+              "location": "src\\steps\\step1.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should validate the login success and Home page loads",
+            "match": {
+              "location": "src\\steps\\step1.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17535000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
