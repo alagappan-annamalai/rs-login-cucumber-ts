@@ -1,0 +1,37 @@
+{
+  "name": "alagappan-cucumber",
+  "version": "1.0.0",
+  "description": "sample cucumber project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Alagappan Annamalai",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "7.9.6",
+    "@babel/register": "7.9.0",
+    "@types/node": "14.0.1",
+    "babel-preset-env": "1.7.0",
+    "babel-register": "6.26.0",
+    "cucumber": "6.0.5",
+    "multiple-cucumber-html-reporter": "1.16.2",
+    "protractor-cucumber-framework": "6.2.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1",
+    "typescript": "3.9.2",
+    "ts-node": "8.10.1",
+    "execution-time": "1.4.1"
+  },
+  "devDependencies": {
+    "path": "0.12.7",
+    "protractor": "7.0.0",
+    "auto-reload-json": "1.0.2",
+    "@types/cucumber": "6.0.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "@types/chai": "4.2.11"
+  }
+}
